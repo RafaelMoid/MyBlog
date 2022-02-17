@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import Link from 
 
 const Title = styled.h1`
   font-size: 50px;
@@ -6,5 +7,17 @@ const Title = styled.h1`
 `
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+  <div>
+
+    <header>
+      <Title>Rafael Moid</Title>
+      <img src="..." />
+    </header>
+    <body>
+
+    </body>
+
+  </div>
+  )
 }
